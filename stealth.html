@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Leka3D (2021) | Iiro Leinonen</title>
+		<title>Stealth Game Enemy AI (2021) | Iiro Leinonen</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -29,23 +29,20 @@
 							<div class="wrapper">
 								<div class="inner">
 
-									<h2 class="major">Leka3D (2021)</h2>
-									<p>A 3D game engine I made using C++ and OpenGL during the summer of 2021.</p>
+									<h2 class="major">Stealth Game Enemy AI (2021)</h2>
+									<p>A stealth game enemy AI I made using Unreal Engine 4 during the summer of 2021.</p>
+
 									<h3>Notable features:</h3>
 									<ul>
-										<li>Modular game objects that can form hierarchical structures</li>
-										<li>Easily import custom models and textures</li>
-										<li>Collision physics, AABB against polygon (still somewhat buggy)</li>
-										<li>Raycasting against polygons (also somewhat buggy)</li>
-										<li>Basic lighting (directional, ambient, multiple point lights)</li>
-										<li>Animated spritesheet particle effects</li>
-										<li>UI overlay images</li>
-										<li>Input system</li>
-										<li>Supports multiple camera layers (e.g. rendering the world and the weapon model separately)</li>
+										<li>Player has a light amount variable which affects the enemy behaviour (e.g. the enemy cannot see player hiding in shadows)</li>
+										<li>Enemy has localized damage system and multiple injure states.</li>
+										<li>Enemy will pick weapon up with his left hand if he drops it due to damage to right hand.</li>
+										<li>Injure state affects how the enemy moves (limping/crawling/twitching on the ground)</li>
+										<li>Will flee if too vurnerable</li>
 									</ul>
-									<a href="https://github.com/hiibs/Leka3D">Link to repo</a><br><br>
-									<img src="images/leka3d_prev.gif" height="320"><br>
-									
+									<img src="images/stealthai_prev.gif" height="320"><br>
+									<img src="images/stealth_bt.PNG" width="660">
+									<p> <a href="images/stealth_bt.PNG">Open full resolution image</a></p>
 								</div>
 							</div>
 
