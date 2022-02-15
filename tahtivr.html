@@ -11,6 +11,21 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			.imgbox {
+				display: grid;
+				height: 100%;
+			}
+			.center-fit {
+				max-width: 100%;
+				max-height: 100vh;
+				margin: auto;
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -37,9 +52,10 @@
 									<p>My responsibility has been programming most of the core gameplay mechanics, MIDI-songmap importing, as well as making some of the music (e.g. the one you can hear on the gameplay video).
 									For MIDI importing, I used a library called DryWetMIDI. The game allows anyone to make their own levels with custom music, by using any software capable of MIDI editing.
 									</p>
-									<iframe width="560" height="315" src="https://www.youtube.com/embed/D9TYOwZ59C8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
-									<img src="images/tahtivr_prev.gif" height="320"><br>
-
+									<div class ="imgbox">
+										<iframe class ="center-fit" width="560" height="315" src="https://www.youtube.com/embed/D9TYOwZ59C8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+										<img class="center-fit" src="images/tahtivr_prev.gif" width=100%>
+									</div>
 								</div>
 							</div>
 

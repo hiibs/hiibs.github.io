@@ -11,6 +11,21 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			.imgbox {
+				display: grid;
+				height: 100%;
+			}
+			.center-fit {
+				max-width: 100%;
+				max-height: 100vh;
+				margin: auto;
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -41,8 +56,10 @@
 										<li>Five unique weapons and a quick melee attack that reflects projectiles</li>
 										<li>Basic predicative projectile shooting enemy AI (two different enemy variants)</li>
 									</ul>
-									<iframe width="560" height="315" src="https://www.youtube.com/embed/BPUTVpedPX0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
-									<img src="images/veresliha_prev.gif" height="320"><br>
+									<div class ="imgbox">
+										<iframe class = "center-fit" width="560" height="315" src="https://www.youtube.com/embed/BPUTVpedPX0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+										<img class="center-fit" src="images/veresliha_prev.gif" width=100%>
+									</div>
 								</div>
 							</div>
 

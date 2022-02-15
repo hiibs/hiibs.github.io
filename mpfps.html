@@ -11,6 +11,21 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			.imgbox {
+				display: grid;
+				height: 100%;
+			}
+			.center-fit {
+				max-width: 100%;
+				max-height: 100vh;
+				margin: auto;
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -43,8 +58,10 @@
 										<li>Skill based movement system, including mechanics like crouchsliding, explosive jumps, aircontrol</li>
 										<li>Highly polished HUD design</li>
 									</ul>
-									<img src="images/mpfps_prev1.gif" height="320"><img src="images/mpfps_prev2.gif" height="320">
-									
+									<div class="imgbox">
+										<img class="center-fit" src="images/mpfps_prev1.gif" width=100%><br>
+										<img class="center-fit" src="images/mpfps_prev2.gif" width=100%>
+									</div>
 								</div>
 							</div>
 

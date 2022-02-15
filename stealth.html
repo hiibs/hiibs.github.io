@@ -11,6 +11,21 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			.imgbox {
+				display: grid;
+				height: 100%;
+			}
+			.center-fit {
+				max-width: 100%;
+				max-height: 100vh;
+				margin: auto;
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -40,9 +55,11 @@
 										<li>Injure state affects how the enemy moves (limping/crawling/twitching on the ground)</li>
 										<li>Will flee if too vurnerable</li>
 									</ul>
-									<img src="images/stealthai_prev.gif" height="320"><br>
-									<img src="images/stealth_bt.PNG" width="660">
-									<p> <a href="images/stealth_bt.PNG">Open full resolution image</a></p>
+									<div class="imgbox">
+										<img class="center-fit" src="images/stealthai_prev.gif" width=100%><br>
+										<img class="center-fit" src="images/stealth_bt.PNG" width=100%>
+										<a href="images/stealth_bt.PNG">Open full resolution image</a>
+									</div>
 								</div>
 							</div>
 
